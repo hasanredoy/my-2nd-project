@@ -171,6 +171,30 @@
     .image-second>img{
       height: 500px;
     }
+    .see-ourBD{
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+    }
+    .textDiv{
+      width: 90%;
+      margin: 0 auto;
+      height: 500px;
+      margin-bottom: 10px;
+    }
+    .imageDiv{
+      width: 90%;
+      margin: 0 auto;
+    }
+    .imageDiv>img{
+      width: 100%;
+    }
+    #inner{
+      display: none;
+    }
+    #inner .oneee{
+      display: none;
+    }
   }
 @media screen and (min-width:601px) and (max-width:1000px) {
   nav{
@@ -321,5 +345,30 @@
 
     .image-second>img{
       height: 500px;
+    }
+
+    .see-ourBD{
+      display: flex;
+      flex-direction: column;
+      width: 95%;
+    }
+    .textDiv{
+      width: 90%;
+      margin: 0 auto;
+      height: 500px;
+      margin-bottom: 10px;
+    }
+    .imageDiv{
+      width: 90%;
+      margin: 0 auto;
+    }
+    .imageDiv>img{
+      width: 100%;
+    }
+    #inner{
+      display: none;
+    }
+    #inner .oneee{
+      display: none;
     }
 }
