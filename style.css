@@ -292,3 +292,112 @@ button:hover{
   font-weight: 900;
 }
 
+/* section-why-us */
+
+.section-why-us{
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid silver;
+  border-radius: 5px;
+}
+.section-why-us h1{
+  font-size: 50px;
+  text-align: center;
+  color: deeppink;
+  padding: 20px;
+}
+
+.section-why-us .ppp{
+  font-size: 20px;
+  text-align: center;
+
+  padding: 20px 20%;
+}
+
+.flex1>img{
+  width: 100px;
+}
+
+
+
+.flex3>img{
+  width: 100px;
+}
+
+.flex2>img{
+  width: 100px;
+}
+
+.flex1{
+  width: 40%;
+  height: 300px;
+  border: 2px solid saddlebrown;
+  background-color: antiquewhite;
+  padding: 40px;
+  border-radius: 5px;
+
+}
+
+.flex1 h3{
+ font-size: 35px;
+ padding: 10px;
+ color:darkmagenta
+
+}
+.flex1 p{
+  font-size: 25px;
+  padding: 10px;
+ 
+ }
+ .flex2{
+  width: 40%;
+  height: 300px;
+  border: 2px solid rgb(211, 15, 71);
+  background-color:aliceblue;
+  margin-left: 10px;
+  padding: 40px;
+  border-radius: 5px;
+
+}
+
+.flex2 h3{
+ font-size: 35px;
+ padding: 10px;
+ color:rgb(248, 19, 2)
+
+}
+.flex2 p{
+  font-size: 25px;
+  padding: 10px;
+ 
+ }
+ .flex3{
+  width: 40%;
+  height: 300px;
+  border: 2px solid rgb(211, 195, 15);
+  background-color:beige;
+  margin: 10px;
+
+  padding: 40px;
+  border-radius: 5px;
+
+}
+
+.flex3 h3{
+ font-size: 35px;
+ padding: 10px;
+ color:rgb(109, 248, 2)
+
+}
+.flex3 p{
+  font-size: 25px;
+  padding: 10px;
+ 
+ }
+
+
+.why-part-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

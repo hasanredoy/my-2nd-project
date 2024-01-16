@@ -128,13 +128,33 @@
     .inside-image{
       position: relative;
       top: -250px;
-      left: 50px;
+      left: 40px;
     }
     
     .inside-imageee{
       position: relative;
       top: -250px;
-      left: 50px;
+      left: 40px;
+    }
+
+    .why-part-flex{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .flex1,
+    .flex2,
+    .flex3{
+      width: 90%;
+      margin: 10px auto;
+      height: 350px;
+    }
+
+    .section-why-us{
+      width: 90%;
+      margin: 0 auto;
+      border: 1px solid silver;
+      border-radius: 5px;
     }
   }
 @media screen and (min-width:601px) and (max-width:1000px) {
@@ -249,5 +269,24 @@
       top: -250px;
       left: 80px;
     }
+    .why-part-flex{
+      display: flex;
+      flex-direction: column;
+    }
 
+    
+    .flex1,
+    .flex2,
+    .flex3{
+      width: 90%;
+      margin: 10px auto;
+      height: 350px;
+    }
+
+    .section-why-us{
+      width: 90%;
+      margin: 0 auto;
+      border: 1px solid silver;
+      border-radius: 5px;
+    }
 }
