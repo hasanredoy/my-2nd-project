@@ -55,9 +55,89 @@
     transition: 1s;
   }
 
-}
+    /* main */
 
-@media screen and (min-width:601px) and (max-width:900px) {
+    #banner-section{  
+      height: auto; 
+      width: 90%;
+      margin: 0 auto;
+      position: relative;
+      background-color: black;
+      border-radius: 20px;
+    }
+    #banner-section::before{
+      content: '';
+      background-image: url(Group\ 13\ \(1\)\ \(1\).png);
+      background-size: 600px 500px;
+      background-repeat: no-repeat;
+    
+    }
+    #banner-section h1{
+       padding-top: 10px;
+       font-size: 30px;
+    }
+    
+    #banner-section p{
+      font-size: 15px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .from{
+      width: 90%;
+      background-color: aliceblue;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    input{
+      margin: 10px ;
+    }
+     .date , .type{
+      margin: 10px ;
+    }
+
+    button{ margin: 10px;
+    }
+    #section2{
+      flex-direction: column;
+    }
+    .text-div{
+      width: 100%;
+    }
+    .image{
+      width: 100%;
+    }
+
+    .image img{
+      width: 100%;
+    }
+
+    .flex-div3,
+    .flex-div2,
+    .flex-div1{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 0 auto;
+
+    }
+    .inside-image{
+      position: relative;
+      top: -250px;
+      left: 50px;
+    }
+    
+    .inside-imageee{
+      position: relative;
+      top: -250px;
+      left: 50px;
+    }
+  }
+@media screen and (min-width:601px) and (max-width:1000px) {
   nav{
     display: none;
   }
@@ -88,4 +168,86 @@
     text-decoration: underline;
     color: palevioletred;
   } 
+   
+     /* main */
+
+     #banner-section{  
+      height: auto; 
+      width: 90%;
+      margin: 0 auto;
+      position: relative;
+    }
+    #banner-section::before{
+      content: '';
+      background-image: url(Group\ 13\ \(1\)\ \(1\).png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    
+    }
+    #banner-section h1{
+       padding-top: 10px;
+       font-size: 30px;
+    }
+    
+    #banner-section p{
+      font-size: 15px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .from{
+      width: 90%;
+      background-color: aliceblue;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+
+    input{
+      margin: 10px ;
+    }
+     .date , .type{
+      margin: 10px ;
+    }
+
+    button{ margin: 10px;
+    }
+    
+    #section2{
+      flex-direction: column;
+    }
+    .text-div{
+      width: 100%;
+    }
+    .image{
+      width: 100%;
+    }
+
+    .image img{
+      width: 100%;
+    }
+
+    .flex-div3,
+    .flex-div2,
+    .flex-div1{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin: 0 auto;
+
+    }
+    .inside-image{
+      position: relative;
+      top: -250px;
+      left: 80px;
+    }
+    
+    .inside-imageee{
+      position: relative;
+      top: -250px;
+      left: 80px;
+    }
+
 }
