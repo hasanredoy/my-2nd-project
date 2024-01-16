@@ -195,6 +195,24 @@
     #inner .oneee{
       display: none;
     }
+    .newsletter{
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      flex-direction: column;
+    }
+    .newsDiv{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .newsImage{
+      width: 100%;
+    }
+    .newsImage>img{
+      width: 100%;
+      
+    }
   }
 @media screen and (min-width:601px) and (max-width:1000px) {
   nav{
@@ -370,5 +388,23 @@
     }
     #inner .oneee{
       display: none;
+    }
+    .newsletter{
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      flex-direction: column;
+    }
+    .newsDiv{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .newsImage{
+      width: 100%;
+    }
+    .newsImage>img{
+      width: 100%;
+      
     }
 }
