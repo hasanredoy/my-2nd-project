@@ -383,12 +383,7 @@
     .imageDiv>img{
       width: 100%;
     }
-    #inner{
-      display: none;
-    }
-    #inner .oneee{
-      display: none;
-    }
+
     .newsletter{
       display: flex;
       width: 90%;
