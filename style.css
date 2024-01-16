@@ -401,3 +401,93 @@ button:hover{
   flex-wrap: wrap;
   justify-content: center;
 }
+
+
+/* deals-section */
+
+.deals-section{
+  width: 90%;
+  margin: 20px auto;
+  border: 2px solid rgb(252, 100, 100);
+  border-radius: 10px;
+}
+
+.deals-section h1{
+  font-size: 40px;
+  text-align: center;
+ padding: 20px;
+  
+}
+.deals-section .peeep{
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+ 
+  
+}
+
+.inner-part p{
+  font-size: 20px;
+  text-align: center;
+  width: 200px;
+  margin: 0 10px;
+  padding: 0px 15px;
+  
+}
+.inner-part h2{
+  font-size: 1rem;
+  text-align: left;
+  margin: 10px;
+  
+}
+.inner-part button{
+  font-size: 20px;
+  text-align: left;
+  
+}
+
+.inner-part h1{
+  font-size: 25px;
+  text-align: left;
+  margin: 10px;
+}
+.inner-part p{
+  font-size: 20px;
+  text-align: left;
+  
+}
+
+.inner-part{
+  position: relative;
+  right: auto;
+  top: -450px;
+  left: 600px;
+  width: 500px;
+  background-color:lightcyan;
+  padding: 20px;
+  border-radius: 10px;
+  color: violet;
+}
+
+.image-first>img{
+  width: 100%;
+}
+.image-first{
+  margin: 20px auto;
+  height: 500px;
+  width: 98%;
+  
+}
+.image-second>.inner-part{
+  position: relative;
+  left: 20px;
+}
+
+.image-second{
+  margin: 0px auto;
+  height: 500px;
+  width: 98%;
+}
+.image-second>img{
+  width: 100%;
+}

@@ -153,8 +153,23 @@
     .section-why-us{
       width: 90%;
       margin: 0 auto;
-      border: 1px solid silver;
-      border-radius: 5px;
+    }
+
+    .inner-part{
+      position: relative;
+      top: -450px;
+      left: 115px;
+      width: 350px;
+    }
+    .image-second>.inner-part{
+      left: 5px;
+    }
+    .image-first>img{
+      height: 500px;
+    }
+
+    .image-second>img{
+      height: 500px;
     }
   }
 @media screen and (min-width:601px) and (max-width:1000px) {
@@ -288,5 +303,23 @@
       margin: 0 auto;
       border: 1px solid silver;
       border-radius: 5px;
+    }
+
+    .inner-part{
+      position: relative;
+      top: -450px;
+      right: 5px;
+      left: 15rem;
+      width: 350px;
+    }
+    .image-second>.inner-part{
+      left: 5px;
+    }
+    .image-first>img{
+      height: 500px;
+    }
+
+    .image-second>img{
+      height: 500px;
     }
 }
